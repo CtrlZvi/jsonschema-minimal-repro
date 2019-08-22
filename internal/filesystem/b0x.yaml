@@ -1,0 +1,9 @@
+pkg: filesystem
+dest: .
+fmt: true
+output: compiled.go
+noprefix: true
+debug: false
+custom:
+ - files:
+   - schemas/
